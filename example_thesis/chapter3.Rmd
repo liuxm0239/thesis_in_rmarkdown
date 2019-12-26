@@ -25,6 +25,21 @@ plot(iris)
 
 This is a \LaTeX  table in an R Markdown document:
 
+\begin{table}
+\centering
+\caption{This is a table with info}
+\label{table-paramvalues}
+\begin{tabular}{ p{4cm} p{4cm} p{4cm} }
+\hline \\ [-1.5ex]
+colname & colname & colname \\ [1ex]
+\hline \\ [-1.5ex]
+Info & info & info \\ [1ex]
+Info & info & info \\ [1ex]
+Info & info & info \\ [1ex]
+\hline
+\end{tabular}
+\end{table}
+
 \begin{longtable}{|c|c|c|c|}
 \caption{A simple longtable example}\\
 \hline
